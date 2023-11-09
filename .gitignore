@@ -1,0 +1,54 @@
+# intelliJ idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# vs code
+.vscode
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
+
+# general
+*.class
+null/
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.lib/
+
+# bloop and metals
+.bloop
+.bsp
+project/metals.sbt
+.metals
+
+# mac
+.DS_Store
+
+# used by the restarr/restarrFull commands as target directories
+/build-restarr/
+/target-restarr/
+
+# other
+.history
+.scala_dependencies
+.cache-main
