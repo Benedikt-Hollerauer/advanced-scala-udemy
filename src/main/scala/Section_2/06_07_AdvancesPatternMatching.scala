@@ -20,8 +20,7 @@ object AdvancesPatternMatching extends App
             else Some(person.name, person.age)
         }
 
-        def unapply(age: Int): Option[String] =
-        {
+        def unapply(age: Int): Option[String] = {
             Some(
                 if(age < 18) "minor"
                 else "major"
